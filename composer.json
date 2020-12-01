@@ -1,0 +1,17 @@
+{
+    "name": "koelle25/winmail",
+    "description": "Small web application to extract attachments from winmail.dat files",
+    "type": "project",
+    "require": {
+        "ext-zip": "*",
+        "php": "^7.0",
+        "qualityunit/tnef-decoder": "^1.2"
+    },
+    "license": "AGPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Kevin Köllmann",
+            "email": "mail@kevinkoellmann.de"
+        }
+    ]
+}

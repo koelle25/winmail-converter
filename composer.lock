@@ -1,0 +1,66 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "83f88bd83c5247dce9453afd5ce702ae",
+    "packages": [
+        {
+            "name": "qualityunit/tnef-decoder",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/QualityUnit/TNEFDecoder.git",
+                "reference": "a4feb52e177608ce464b478d584beb7c390cd11e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/QualityUnit/TNEFDecoder/zipball/a4feb52e177608ce464b478d584beb7c390cd11e",
+                "reference": "a4feb52e177608ce464b478d584beb7c390cd11e",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "php": ">=7.0"
+            },
+            "require-dev": {
+                "overtrue/phplint": "^2.0",
+                "phpunit/phpunit": "^9.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "TNEFDecoder\\": "src/TNEFDecoder/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "description": "TNEF Decoder library extracted from squirell mail plugin to decode winmail.dat file in email attachment",
+            "homepage": "https://github.com/QualityUnit/TNEFDecoder",
+            "keywords": [
+                "tnef decoder",
+                "winmail.dat"
+            ],
+            "support": {
+                "issues": "https://github.com/QualityUnit/TNEFDecoder/issues",
+                "source": "https://github.com/QualityUnit/TNEFDecoder/tree/master"
+            },
+            "time": "2020-04-20T18:20:09+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "ext-zip": "*",
+        "php": "^7.0"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}
